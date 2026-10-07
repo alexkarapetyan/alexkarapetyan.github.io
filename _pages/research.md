@@ -3,8 +3,8 @@ title: "Research"
 permalink: /research/
 ---
 
-## Thesis?
+Comments on anything are welcome!
 
-## Something else
+## Crystalline and infinitesimal Poisson stacks (preprint)
 
-## Hmmmmm
+This paper is based on my PhD thesis. [Read a pdf here.]({{ '/assets/pdf/polyvectors.pdf' | relative_url }})
