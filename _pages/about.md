@@ -1,6 +1,11 @@
 ---
-permalink: /about/
+permalink: /
 title: "About"
+layout: single
+author_profile: true
+classes: ""
 ---
 
-Testing. Hello at all!
+I completed my PhD in mathematics at Northwestern University in 2026. My advisor was [Ezra Getzler](https://sites.northwestern.edu/getzler/).
+
+[More about my academic research.](/research/)

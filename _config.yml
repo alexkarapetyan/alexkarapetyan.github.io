@@ -19,10 +19,10 @@ repository: "alexkarapetyan/alexkarapetyan.github.io"
 title: Alex Karapetyan
 email: alex.karapetyan97@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  You can find my ML projects and academic research here.
+  You can find my projects and academic research here.
 #twitter_username: username
 github_username: alexkarapetyan
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dirt
 search: true
 
 # Build settings
@@ -30,9 +30,9 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -54,18 +54,23 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  #- jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
   name   : "Alex Karapetyan"
-  avatar : ""
-  bio    : "I am a PhD mathematician interested in applying machine learning techniques to decision problems in transportation, health and energy."
+  avatar : "assets/images/headshot_compressed.jpg"
+  bio    : "I am a PhD mathematician. You can find my projects, including academic research, here."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexkarapetyan"
+    - label: "Email"
+      url: "mailto:rgdl6oo43@mozmail.com"
+
+atom_feed:
+  hide: true
 
 footer:
   links:
@@ -92,7 +97,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      classes: wide
+      classes: ""
 
 category_archive:
   type: liquid
